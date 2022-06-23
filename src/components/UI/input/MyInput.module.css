@@ -1,0 +1,21 @@
+.myInput {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 5px 15px;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  color: #333;
+  background-color: transparent;
+  transition: .15s ease;
+}
+
+/* focus & active states */
+.myInput:focus {
+  outline: 2px solid orange;
+}
+
+@media (hover: hover) {
+  .myInput:hover {
+    border-color: orange;
+  }
+}

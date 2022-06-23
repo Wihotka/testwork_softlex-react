@@ -1,0 +1,12 @@
+.formHeading {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.formLabel {
+  display: block;
+  padding: 0 4px;
+  color: #666;
+  font-size: 14px;
+  text-align: start;
+}

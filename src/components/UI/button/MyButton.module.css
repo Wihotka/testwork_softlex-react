@@ -1,0 +1,31 @@
+.myBtn {
+  width: fit-content;
+  padding: 5px 15px;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  color: orangered;
+  background-color: transparent;
+  font-size: 14px;
+  transition: .15s ease;
+  cursor: pointer;
+}
+
+/* focus & active states */
+.myBtn:focus {
+  outline: 2px solid orange;
+}
+.myBtn:active {
+  color: white;
+  background-color: orange;
+}
+
+@media (hover: hover) {
+  .myBtn:hover {
+    color: white;
+    background-color: orangered;
+  }
+  .myBtn:active {
+    color: white;
+    background-color: orange;
+  }
+}

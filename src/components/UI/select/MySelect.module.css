@@ -1,0 +1,28 @@
+.mySelect {
+  padding: 5px 15px;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  color: orangered;
+  background-color: transparent;
+  transition: .15s ease;
+  cursor: pointer;
+}
+
+/* focus & active states */
+.mySelect:focus {
+  outline: 2px solid orange;
+}
+
+@media (hover: hover) {
+  .mySelect:hover {
+    color: orange;
+    border-color: orange;
+  }
+
+  .mySelect:hover option {
+    color: orangered;
+  }
+  .mySelect:hover option:disabled {
+    color: #666;
+  }
+}

@@ -1,0 +1,40 @@
+.task {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) minmax(auto, max-content);
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border: 1px solid orangered;
+  border-radius: 8px;
+  color: #333;
+}
+.taskDone {
+  background-color: rgba(150, 214, 52, 0.75);
+}
+
+.taskContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskTitle {
+  font-size: 20px;
+}
+
+.taskEmail {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.taskText {
+  display: flex;
+  align-items: center;
+}
+
+.taskBtns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, max-content));
+  gap: 8px;
+  align-items: center;
+}
